@@ -17,6 +17,10 @@ repositories {
 }
 
 dependencies {
+
+    implementation 'com.itextpdf:itextpdf:5.5.13.2'
+
+
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
 

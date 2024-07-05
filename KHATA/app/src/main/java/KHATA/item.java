@@ -26,10 +26,10 @@ public class item implements Serializable{
         float intrest_paid;
             public String status(boolean b){
               if(b = true){
-return "RAKHI H";
+return "IN VAULT";
 }
 else{
-return "UTH GYI H (DETAILS ARE GIVEN BELOW)";
+return "RETURNED TO OWNER (DETAILS ARE GIVEN BELOW)";
 }
             
             }

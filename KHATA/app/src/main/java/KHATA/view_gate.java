@@ -196,8 +196,10 @@ public class view_gate extends javax.swing.JFrame {
          FileInputStream fis = new FileInputStream(f_owner_name);
         ObjectInputStream ois = new ObjectInputStream(fis);
         item i = (item)ois.readObject();
-              Tester t = new Tester(i);
-           t.setVisible(true);
+//              Tester t = new Tester(i);
+//           t.setVisible(true);
+                 view_item vi = new view_item(i);
+                 vi.setVisible(true);
            this.dispose();
      }
        } catch(FileNotFoundException e) {
